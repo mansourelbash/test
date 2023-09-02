@@ -1,0 +1,22 @@
+.image{
+  width: 200px;
+  height: 200px;
+  transition: all .05s ease-in-out;
+  border-radius: 5px;
+}
+.image:hover{
+  border: 1px solid #fff
+}
+.flex{
+  display: flex;
+  justify-content: center;
+  gap: 20px
+}
+.addMargin{
+  margin: 0px 30px
+}
+.background_image{
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
